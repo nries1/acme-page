@@ -41,10 +41,37 @@ body {
     margin: 0px;
 }
 
-.section {
-    
-}
-
 .section-copy {
     color: #1D1D1D;
+}
+
+img {
+    width: 200px;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+}
+
+.img-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+.caption {
+    color: rgba(29, 29, 29, 0.8);
+    padding: 0.5rem;
+    font-weight: 700;
+    opacity: 60%;
+}
+
+.img-inner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
