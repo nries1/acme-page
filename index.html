@@ -1,6 +1,9 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+        <audio>
+          <source src='./muscle-car-daniel_simon.mp3' type='audio/mpeg'>
+        </audio>
     </head>
     <body>
         <div class="container">
@@ -20,7 +23,7 @@
                 <div class='img-container'>
                   <div class='img-row'>
                     <div class='img-inner-container'>
-                      <img class="irc_mi" src="https://images.unsplash.com/photo-1532386236358-a33d8a9434e3?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;w=1000&amp;q=80" alt="Image result for cat photos">
+                      <img class="irc_mi" onclick='meow(this)' src="https://images.unsplash.com/photo-1532386236358-a33d8a9434e3?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;w=1000&amp;q=80" alt="Image result for cat photos">
                       <small class='caption'>Name</small>
                     </div>
                     <img alt="orange tabby cat sleeping on white pet bed" srcset="https://images.unsplash.com/photo-1541188495357-ad2dc89487f4?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=100&amp;q=60 100w, https://images.unsplash.com/photo-1541188495357-ad2dc89487f4?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=200&amp;q=60 200w, https://images.unsplash.com/photo-1541188495357-ad2dc89487f4?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=300&amp;q=60 300w, https://images.unsplash.com/photo-1541188495357-ad2dc89487f4?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=400&amp;q=60 400w, https://images.unsplash.com/photo-1541188495357-ad2dc89487f4?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60 500w, https://images.unsplash.com/photo-1541188495357-ad2dc89487f4?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=600&amp;q=60 600w, https://images.unsplash.com/photo-1541188495357-ad2dc89487f4?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=700&amp;q=60 700w, https://images.unsplash.com/photo-1541188495357-ad2dc89487f4?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60 800w, https://images.unsplash.com/photo-1541188495357-ad2dc89487f4?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=900&amp;q=60 900w, https://images.unsplash.com/photo-1541188495357-ad2dc89487f4?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=60 1000w, https://images.unsplash.com/photo-1541188495357-ad2dc89487f4?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1100&amp;q=60 1100w, https://images.unsplash.com/photo-1541188495357-ad2dc89487f4?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1200&amp;q=60 1200w, https://images.unsplash.com/photo-1541188495357-ad2dc89487f4?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1296&amp;q=60 1296w, https://images.unsplash.com/photo-1541188495357-ad2dc89487f4?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1400&amp;q=60 1400w, https://images.unsplash.com/photo-1541188495357-ad2dc89487f4?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1600&amp;q=60 1600w, https://images.unsplash.com/photo-1541188495357-ad2dc89487f4?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1800&amp;q=60 1800w, https://images.unsplash.com/photo-1541188495357-ad2dc89487f4?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=2000&amp;q=60 2000w, https://images.unsplash.com/photo-1541188495357-ad2dc89487f4?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=2200&amp;q=60 2200w, https://images.unsplash.com/photo-1541188495357-ad2dc89487f4?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=2400&amp;q=60 2400w, https://images.unsplash.com/photo-1541188495357-ad2dc89487f4?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=2592&amp;q=60 2592w" src="https://images.unsplash.com/photo-1541188495357-ad2dc89487f4?ixlib=rb-1.2.1&amp;w=1000&amp;q=80">
@@ -32,5 +35,11 @@
                 </div>
             </div>
         </div>
+        <script type='text/javascript'>
+        function meow(element) {
+          alert('Im mewoing');
+          element.play();
+        }
+        </script>
     </body>
 </html>

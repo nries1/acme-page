@@ -1,0 +1,19 @@
+{
+  "name": "acme-page",
+  "version": "1.0.0",
+  "description": "HTML and CSS lesson for FS Academy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nries1/acme-page.git"
+  },
+  "author": "Nicolas Ries",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nries1/acme-page/issues"
+  },
+  "homepage": "https://github.com/nries1/acme-page#readme"
+}
