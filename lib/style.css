@@ -15,7 +15,17 @@ body {
 #spinner-container {
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
+}
+#spinners-only-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#spinner-msg {
+    margin-top: 2rem;
+    text-align: center;
 }
 #posts-container {
     display: flex;
